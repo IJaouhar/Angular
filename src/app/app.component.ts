@@ -4,7 +4,7 @@ import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 @Component({ 
   selector: 'app-root',
   template: `
-    <app-customers></app-customers>
+    <router-outlet></router-outlet>
   `,
   styleUrls: ['./app.component.sass']
 })

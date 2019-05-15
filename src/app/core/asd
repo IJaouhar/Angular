@@ -1,0 +1,7 @@
+  baseUrl: string = 'assets/';
+  // Desde de aqui podemos cambiar la URL desde donde recibiremos los JSON.
+
+  constructor(private http: HttpClient) { }
+
+  // Funciones que van a recibir los datos del JSON
+  // Observable nos permite hacer queries asincronas al server
